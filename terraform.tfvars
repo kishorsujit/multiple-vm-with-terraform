@@ -1,7 +1,7 @@
 #Login details
-username = "administrator@vsphere.local"
-password = "Qwerty123!"
-vcenter = "esxvi02.atl.lan"
+username = "yourusername@yourdomain.com"
+password = "yourpassword"
+vcenter = "serverhostname"
 
 # Data
 datacenter = "Test"
@@ -27,11 +27,11 @@ host_name = {
           "3" = "k8s-node01"
 }
 count_ip = {
-          "0" = "10.50.3.163"
-          "1" = "10.50.3.164"
-          "2" = "10.50.3.165"
-          "3" = "10.50.3.167"
+          "0" = "10.5.12.10"
+          "1" = "10.5.12.11"
+          "2" = "10.5.12.12"
+          "3" = "10.5.12.13"
 }
-gateway = "10.50.3.1"
-dns_server = [ "10.50.3.2", "8.8.8.8" ]
+gateway = "10.5.12.1"
+dns_server = [ "10.5.12.2", "8.8.8.8" ]
 
