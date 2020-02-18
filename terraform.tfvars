@@ -7,7 +7,7 @@ vcenter = "serverhostname"
 datacenter = "Test"
 datastore = "Datastore19"
 pool = "Terraform"
-network = "VLAN 73"
+network = "VLAN 74"
 
 # Linux VM
 template = "TMP-Ubuntu18"
